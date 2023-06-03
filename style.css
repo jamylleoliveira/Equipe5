@@ -1,0 +1,875 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&family=Montserrat:wght@100&family=Open+Sans:wght@300&family=Outfit:wght@400;700&family=Roboto:wght@100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'inter', 'sans-serif';
+}
+
+/*>>>>>>>>>>>>> HEADER<<<<<<<<<<<<<<<<<<*/
+
+header{
+    padding-top: 32px;
+    padding-left: 95px;
+    padding-right: 28px;
+    padding-bottom: 32px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+header .logo{
+    margin-right: 28px;
+    display: flex;
+    align-items: center;
+    font-size: 35px;
+    font-weight: 600;
+    color: #C92071;
+    gap: 7px;
+}
+
+.imagem-logo{
+    width: 33px;
+}
+
+header .pesquisa{
+    flex: 1;
+    margin-right: 45px;
+    height: 60px;
+    background-color: #4747470f;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+header .pesquisa input{
+    width: 95%;
+    height: 100%;
+    background-color: transparent;
+}
+
+header .pesquisa a{
+    width: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .pesquisa a i{
+    font-size: 25px;
+    color: #4747474c;
+}
+
+header .acoes{
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+header .header-cadastro{
+    margin-right: 26px;
+    letter-spacing: 0px;
+    font-weight: 400;
+    color: #474747;
+    text-decoration: underline;
+    letter-spacing: 0.75px;
+}
+
+header .acoes .header-btn-entrar{
+    width: 112px;
+    height: 40px;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'inter';
+    border-radius: 8px;
+    background-color: #C92071;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgaem-carrinho{
+    width: 33px;
+    margin-right: 38px;
+    margin-left: 66px;
+    
+}
+
+header nav{
+    width: 100%;
+    margin-top: 40px;
+    margin-left: -5px;
+}
+
+header nav ul{
+    display: flex;
+    gap: 32px;
+}
+
+header nav ul li a{
+    color: #474747;
+    font-size: 15.5px;
+    letter-spacing: 1px;
+}
+
+header nav ul li a.active{
+    color: #C92071;
+    font-weight: 700;
+    border-bottom: 2px solid #C92071; /*Depois ver porque nao ta pegando o after para colocar como after*/
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>>termino do header<<<<<<<<<<<<<<<<<<<<<<*/
+
+
+
+/*>>>>>>>>>>>>>>>>>>>>>>>MAIN<<<<<<<<<<<<<<<<<<<<<<*/
+
+
+
+#banner-inicio{
+    height: 650px;
+    background-color: #F5F5F5;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+
+}
+
+.banner-inicio-text{
+    height: 345px;
+    width: 510px;
+    padding-top: 110px;
+    padding-left: 95px;
+    padding-right: 28px;
+}
+
+.banner-inicio-text span{
+    display: flex; /*saber porque o margin só funciona se esse item tiver como display flex, porque display inline e bloque nao pega margin top nem bottom só right e left? */
+    font-size: 15px;
+    font-weight: 700;
+    color: #F6AA1C;
+    margin-bottom: 25px;
+    letter-spacing: 1px;
+
+    
+}
+
+.banner-inicio-text .titulo{
+    display: flex;
+    height: 138px;
+    width: 530px;
+    font-size: 62px;
+    font-family: 'inter';
+    margin-bottom: 20px;
+    font-weight: 900;
+    line-height: 65px;
+    color: black;
+}
+
+.banner-inicio-fogo{
+    margin-top: 50px;
+    height: 70px;
+    width: 50px;
+    position: absolute;
+    left: 480px;
+}
+
+.banner-inicio-text p{
+    width: 500px;
+    font-size: 18px;
+    line-height: 38px;
+    letter-spacing: 1px;
+    margin-bottom: 35px;
+    color: #474747;
+
+}
+
+.banner-inicio-btn {
+    width: 213px;
+    height: 46px;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 8px;
+    background-color: #C92071;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 24px;
+    letter-spacing: 0.75px;
+    margin-left: -4px;
+}
+
+.banner-inicio-img{
+    height: 424px;
+    position: absolute;
+    top: 90px;
+    right: 833px;
+}
+
+.img-tenis{
+    display: flex;
+    height: 160%;
+    position: absolute;
+    left: -68px;
+    top: -118px;
+}
+
+.img-ornament{
+    position: absolute;
+    width: 135px;
+    top: 0px;
+    right: -820px;
+}
+
+.banner-inicio-bolinhas{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    margin-left: 9px;
+}
+
+.div1{
+    height: 11px;
+    width: 11px;
+    background-color: #C92071;
+    border-radius: 100%;
+}
+
+.div2{
+    height: 11px;
+    width: 11px;
+    background-color: rgb(200, 197, 197);
+    border-radius: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* COLEÇÃO DESTAQUE*/
+
+
+#colecao-destaque{
+    height: 660px;
+    background-color: #efecf7da;
+    display: flex;
+    justify-content: center;
+}
+
+.container-colecao-destaque{
+    width: 1170px;
+    /* border: 1px solid red; */
+}
+
+.container-colecao-destaque>h4{
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 25px;
+    margin-top: 35px;
+    color: #474747;
+}
+
+.ofertas-colecao-destaque{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    /* border:1px solid green; */
+    margin-bottom: 55px ;
+    
+}
+
+.ofertas-img-colecao-destaques{
+    height: 240px;
+    width: 100%;
+    background-color: #D8E3F2;
+    border-radius: 10px;
+    /* border: 1px solid black; */
+    position: relative;
+    overflow:hidden;
+}
+
+.box-oferta-img{
+    width:50%;
+    height: 80%;
+    margin: 30px 0 0 28px ;
+    flex-wrap: wrap;
+    /* border: 1px solid black; */
+}
+
+.box-oferta-img p{
+    display: inline-block;
+    border-radius: 16px;
+    background-color: #def583;
+    color: #474747;
+    padding: 7px 16px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.box-oferta-img h3{
+    font-size: 31px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.box-oferta-img button{
+    width: 150px;
+    height: 40px;
+    font-weight: 400;
+    font-size: 14px;
+    background-color: white;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    color: #C92071;
+    font-weight: 700;
+    font-size: 16px;
+    /* border: 1px solid black; */
+    margin-top: 5px;
+    transition: 400ms;
+    z-index: 2;
+    position: relative;
+}
+
+.img-ofertas{
+    position: absolute;
+    left: 155px;
+    bottom: 0px;
+    width: 225px;
+    z-index: 1;
+}
+
+
+/* FIM, COLEÇÃO DESTAQUE*/
+
+
+/*>>>>>>> segunda parte do 2° section<<<<<<<<<*/
+
+.ofertas-icones-destaques > h4{
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 24px;
+    color: #474747;
+    /* border: 1px solid black; */
+    margin-bottom: 15px;
+}
+
+.ofertas-icones-destaques > ul{
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 1px solid black; */
+    justify-content: center;
+    gap: 23px;
+}
+
+.ofertas-icones-destaques > ul > li{
+    /* border: 1px solid black; */
+    margin: 10px;
+    border-radius: 10px;
+    transition: 300ms;
+    
+}
+
+.ofertas-icones-destaques > ul > li  >.icon {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    /* border: 1px solid greenyellow; */
+    display: flex;
+    align-items: center;
+    border-radius: 100%;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 16px;
+    background-color: rgba(255, 255, 255, 0.3);
+    box-shadow:    0px 0px 12px  #3030300c;
+}
+
+.ofertas-icones-destaques > ul > li > div > img{
+    width: 50%;
+    margin: 0 auto;
+    display: block;
+}
+
+.ofertas-icones-destaques > ul > li > h3{
+    text-align: center;
+    font-size: 14px;
+    color: #474747;
+}
+
+/*>>>>>>> fim da segunda parte do 2° section<<<<<<<<<*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#produtos-em-alta{
+    height: 1020px;
+    background-color: #efecf7da;
+    display: flex;
+    justify-content: center;
+    padding-left: 93px;
+    padding-right: 90px;
+    /* border: 1px solid black; */
+    
+}
+
+.inicio-produtos-em-alta{
+    width: 100%;
+    /* border: 1px solid red; */
+}
+
+.container-produtos-em-alta-titulo{
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid blue; */
+}
+
+.container-produtos-em-alta-titulo h2{
+    font-size: 24px;
+    font-weight: 700;
+    color: #474747;
+}
+
+.container-produtos-em-alta-titulo a{
+    font-size: 17px;
+    font-weight: 400;
+    color: #C92071;
+    letter-spacing: 0.75px;
+
+}
+
+
+.container-produtos-em-alta{
+    /* display: flex; */
+    margin-top: 20px;
+    /* border: 1px solid forestgreen; */
+    /* flex-wrap: wrap; */
+    /* gap: 22px; */
+}
+
+
+
+.produtos-em-alta-item{
+    width: 277px;
+    height: 410px;
+    /* border: 1px solid indigo; */
+    margin-bottom: 10px;
+}
+
+.produtos-em-alta-desconto-img{
+    width: 100%;
+    height: 300px;
+    /* border: 1px solid black; */
+    margin-right: 25px;
+    background-color: white;
+    position: relative;
+    border-radius: 4px;
+    
+}
+
+.produtos-em-alta-desconto-img img{
+    width: 102%;
+    position: absolute;
+    right: 16px;
+    bottom: 30px;
+}
+
+.produtos-em-alta-desconto-img p{
+    display: inline-block;
+    border-radius: 16px;
+    background-color: #e7ff86;
+    color: #474747;
+    padding: 7px 16px;
+    font-size: 14px;
+    font-weight: 600;
+    position: absolute;
+    left: 17px;
+    top: 15px;
+}
+
+.produtos-em-alta-item > span{
+    font-size: 12px;
+    font-weight: 700;
+    color: #8f8f8f;
+    letter-spacing: 0.75px;
+}
+
+.produtos-em-alta-item h2{
+    font-weight: 400;
+    color: #474747;
+    letter-spacing: 0.38px;
+    margin-top: 8px;
+    margin-bottom: 10px;
+}
+
+.produtos-em-alta-item h3{
+    font-size: 24px;
+    color: black;
+    font-weight: 400;
+}
+
+.span-h3{
+    color: black;
+    font-weight: 700;
+    letter-spacing: 0.75px;
+}
+
+strike{
+    text-decoration: line-through;
+    color: #8f8f8f;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#banner-final{
+    height: 560px;
+    background-color: white;
+    display: flex;
+    /* border: 1px solid black; */
+    padding-top: 110px;
+    padding-left: 44px;
+}
+
+.container-banner-final{
+    height: 352px;
+    width: 100%;
+    margin-right: 46px;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.div-img-final{
+    font-size: 26px;
+    width: 536px;
+    height: 350px;
+    /* border: 1px solid black; */
+    margin-right: 62px;
+    position: relative;
+    
+}
+
+.div-img-final img{
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+.div-img-final .sombra::after {
+    content: ""; /* Adiciona essa linha */
+    position: absolute;
+    width: 430px;
+    height: 430px;
+    border-radius: 50%;
+    background-image: linear-gradient(to bottom, #6530f825, white);
+    right: 30px;
+    top: -25px;
+    z-index: 0;
+}
+
+.div-text-final{
+    width: 510px;
+    height: 350px;
+    /* border: 1px solid blue; */
+    margin-right: 150px;
+}
+
+.div-text-final span{
+    font-size: 14px;
+    color: #C92071;
+    font-weight: 700;
+}
+
+.div-text-final h2 {
+    margin: 17px 0 20px 0;
+    font-size: 46.5px;
+    color: #474747;
+    line-height: 48px;
+}
+
+.div-text-final p {
+    line-height: 25px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin-bottom: 12px;
+    font-size: 16px;
+    color: #474747;
+}
+
+.div-text-final button{
+    width: 188px;
+    height: 39px;
+    font-weight: 400;
+    background-color: #C92071;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 14px;
+    /* border: 1px solid black; */
+    margin-top: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*>>>>>>>>>>>>>>>>>>>>>>> termino do main <<<<<<<<<<<<<<<<<<<<<<*/
+
+
+footer{
+    background-color: #1f1f1f;
+    padding: 72px 100px 20px 92px;
+}
+
+footer .container{
+    display: flex;
+    /* border: 1px solid red; */
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color:#1f1f1f;
+}
+
+footer .footer-box1{
+    color: #FFFFFF;
+    width: 304px;
+}
+
+footer .footer-box1 h3{
+    display: flex;
+    align-items: center;
+    font-size: 32px;
+    gap: 7px;
+    margin-bottom: 40px;
+    margin-left: 2px;
+}
+
+footer .footer-box1 p{
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'inter';
+    line-height: 25px;
+}
+
+footer .footer-box1 ul{
+    display: flex;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+footer .footer-box1 a{
+    color: #FFFFFF;
+    font-size: 22px;
+    /* border: 1px solid red; */
+}
+
+footer .footer-box2{
+    color: #FFFFFF;
+    /* border: 1px solid red; */
+    width: 220px;
+    height: 225px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+footer .footer-box2 h3{
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'inter';
+    margin-right: 42px;
+    margin-bottom: 30px;
+}
+
+footer .footer-box2 li{
+    margin-bottom: 16px;
+    font-size: 15px;
+    margin-right: 9px;
+}
+
+footer .footer-box3{
+    
+    color: #FFFFFF;
+    /* border: 1px solid red; */
+    width: 164px;
+    height: 225px;
+}
+
+footer .footer-box3 h3{
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'inter';
+}
+
+footer .footer-box3 ul{
+    margin-top: 30px;
+}
+
+footer .footer-box3 ul li{
+    margin-bottom: 16px;
+    font-size: 15px;
+}
+
+footer .footer-box4{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    color: #FFFFFF;
+    width: 202px;
+    height: 225px;  /*porque se eu colocar 100% ele nao preenche o tamanho da div container?*/
+    /* border: 1px solid red; */
+}
+
+footer .footer-box4 h3{
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'inter';
+}
+
+footer .footer-box4 address{
+    font-size: 15px;
+    line-height: 26px;
+    margin-top: 30px;
+}
+
+footer .footer-box4 p{
+    margin-top: 18px; 
+}
+
+footer .footer-box5{
+    width: 100%;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 30px;
+    font-size: 13px;
+}
+
+hr{
+    height: 1px;
+    background-color: rgba(95, 95, 95, 0.597);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
